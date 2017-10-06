@@ -1,8 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    // change to 24
     buildToolsVersion "26.0.1"
+    // change to "24.0.3"
+    compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.sergiolima.createanim"
         minSdkVersion 26
@@ -18,7 +20,7 @@ android {
         }
     }
 }
-
+// change to 24.2.1
 def supportLibVersion = "26.1.0"
 
 
